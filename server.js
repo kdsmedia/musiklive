@@ -88,7 +88,7 @@ function playSound(ws, soundPath) {
         currentSoundTimeout = setTimeout(() => {
             isPlaying = false;
             currentSoundTimeout = null;
-        }, 5000); // Sesuaikan dengan durasi suara sesungguhnya
+        }, 4000); // Sesuaikan dengan durasi suara sesungguhnya
     } else {
         console.log('A sound is already playing, skipping this sound.');
     }
