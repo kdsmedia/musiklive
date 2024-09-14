@@ -176,7 +176,7 @@ function handleChat(ws, data) {
     // Pemetaan komentar ke file suara
     const soundMapping = {
     'stop': 'sounds/stop.mp3',
-    'fyp': 'sounds/telolet.mp3',
+    '0': 'sounds/telolet.mp3',
     '1': 'sounds/1.mp3',
     '2': 'sounds/2.mp3',
     '3': 'sounds/3.mp3',
